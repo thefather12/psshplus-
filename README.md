@@ -1,52 +1,50 @@
-# 👨‍💻 PAINELWEB GESTOR-SSH SWIT-T
-⚠ SISTEMAS SUPORTADOS: (DEBIAN 8, UBUNTU 14 E UBUNTU 18!).⚠ </br>
-⚠  VPS RECOMENDADA PARA PAINEL WEB: https://www.avirahost.com.br/aff.php?aff=108 ⚠
+# 👨‍💻 PANEL WEB ADMINISTRADOR-SSH SHADOW
+⚠ SISTEMAS SOPORTADOS: (DEBIAN 8, UBUNTU 14 Y UBUNTU 18!).⚠ </br>
+⚠  VPS RECOMENDADA PARA PANEL WEB: ⚠
 ```
 apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://github.com/thefather12/psshplus-/raw/main/gestorssh/instpainel.sh)
 ```
 
-# ♻ SINCRONIZAR NA VPS SSH!
+# ♻ SINCRONIZAR LA VPS SSH!
 ```
 apt install wget -y; bash <(wget -qO- https://github.com/thefather12/psshplus-/raw/main/gestorssh/sincpainel.sh)
 ```
 
-# 🛂 CHECKUSER PARA O APP CONECTA4G!
+# 🛂 CHECKUSER PARA APP CONECTA4G!
 ```
 apt install wget -y; bash <(wget -qO- https://github.com/thefather12/psshplus-/raw/main/gestorssh/instcheck.sh)
 ```
 
-# ✅ ATUALIZAÇÃO 29/08/2022
+# ✅ ACTUALIZACION 23/03/2023
 ```
 1- Comando pweb
 (Funciona via terminal SSH)
 
-2- Painel Conecta4G 
-(Usuário/Senha: admin/admin)
+2- Panel Conecta4G 
+(Usuario/contraseña: admin/admin)
 
-3- Loja de APPS 
+3- Alojamiento de APPS 
 (Link na tela de login/Revenda e Login/Admin)
 (Troca de cor da Top-Bar e icones nos Textos)
 
-4- Background Área Revenda e Área Admin
-(Para alterar as imagens, basta trocar as images na pasta /var/www/html/app-assets/images/background/)
-(Manter os mesmos nomes nas imagens novas (bk-admin.jpg = para admin) e (bk-rv.jpg = para revenda))
+4- Background Area Reventa y Area Admin
+(Para cambiar las imágenes, simplemente intercambie las imágenes en la carpeta /var/www/html/app-assets/images/background/)
+(Mantenga los mismos nombres en las nuevas imágenes (bk-admin.jpg = para admin) y (bk-rv.jpg = para reventa))
 
-5- Texto Flutuante na Tela Login/Revenda
-(📣 NOVIDADES AQUI !!!) Para editar, basta ir em /var/www/html/index.php (linha 86)
+5- Texto flotante en la pantalla de inicio de sesión / revendedor
+📣 ( NOTICIA AQUÍ !!!) Para editar, simplemente vaya a /var/www/html/index.php (línea 86)
 
-6- Página de Termos de Uso editada
-(foi adicionado uma imagem no topo)
-(cor do background trocada)
+6- Página de Términos de Uso editada
+(se ha añadido una imagen en la parte superior)
+(color de fondo cambiado)
 
-7- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
-(quando alterar o NOME DA LOGO no painel pweb, Todos os texto EMPRESA será trocado também.)
+7- Todos los nombres GESTOR-SSH fueron cambiados a EMPRESA
+(Cuando cambie el NOMBRE DEL LOGOTIPO en el panel web, también se cambiará todo el texto de la EMPRESA).
 ```
 
-# 🎞 VÍDEO DE INSTALAÇÃO
-<a href="https://youtu.be/eLurS-xv17Y" target="_blank"><img  width="625" height="344" src="https://user-images.githubusercontent.com/105602625/185815718-76350347-11c2-4dd3-a74d-e64806951c1e.png"></a>
 
 
-# 📷 IMAGENS:
+# 📷 IMAGENES:
 ![LOGIN REVENDA-NV](https://user-images.githubusercontent.com/105602625/187283396-50394a4d-e696-429e-978f-4c67ecf71bdd.jpg)
 
 ![LOGIN ADMIN](https://user-images.githubusercontent.com/105602625/187033648-c587cd0b-0ba2-4842-afe7-5054c770246e.jpg)
@@ -67,7 +65,6 @@ apt install wget -y; bash <(wget -qO- https://github.com/thefather12/psshplus-/r
 @nandoslayer
 @swittecnologia
 @Davidsdy
+@THEFATHER12
 ```
 
-# 🚀 VPN MONEY:
-👉 https://kiwify.app/NKl55g5.
