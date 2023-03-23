@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Centro America/El Salvador" > /etc/timezone
+echo "Centro_America/El_Salvador" > /etc/timezone
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime > /dev/null 2>&1
 dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
